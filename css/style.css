@@ -1,4 +1,144 @@
 /* Enter your Styles below! */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 
-body { font-family: georgia; }
+
+.orion-page {background-image: url(../images/orionimg.png);
+			background-repeat: no-repeat;
+			background-position: 600px 100px;
+			background-size: 30%
+}
+
+.solid-decoritive-text {
+		font-size: 108px;
+		position: absolute;
+		left: 200px;
+		top: 440px; 
+}
+
+.home-sidetext  .solidtext {
+		font-size: 108px;
+		position: absolute;
+		left: 400px;
+		top: 530px;
+
+}
+
+.outlined-text {
+		font-size: 108px;
+		position:absolute;
+		left:1400px;
+		top:440px;
+ 		color: black;
+  		-webkit-text-fill-color: black; 
+  		-webkit-text-stroke-width: 1px;
+  		-webkit-text-stroke-color: white;
+}
+
+.home-sidetext .outlinedtext {
+		font-size: 108px;
+		position: absolute;
+		left:1600px;
+		top: 530px;
+ 		color: black;
+ 		-webkit-text-fill-color: black; 
+  		-webkit-text-stroke-width: 1px;
+  		-webkit-text-stroke-color: white;
+
+}
+
+
+
+.orion-sidetext .solidtext {
+		font-size: 108px;
+		position: absolute;
+		right: 30px;
+		top: 440px;
+}
+.orion-sidetext .outlinetext {
+		font-size: 108px;
+		position: absolute;
+		right: -60px;
+		top: 530px;
+		color: black;
+ 		-webkit-text-fill-color: black; 
+  		-webkit-text-stroke-width: 1px;
+  		-webkit-text-stroke-color: white;
+
+}
+
+header {
+	padding-left: 50px;
+	padding-top: 40px;
+	
+}
+
+
+
+h4 {	font-size: 14px;
+		font-family: "Roboto" san-serif;
+		position: absolute;
+		left: 175px;
+		top: 400px;
+
+
+
+}
+
+li, a, button {
+	font-family: "Roboto" san-serif;
+	font-weight: bold;
+	font-size: 16px;
+	color: white; 
+	text-decoration: none;
+
+}
+
+h1{ padding: 20px 20px
+	margrin-left:auto;
+
+
+ }
+
+
+ h2{font-family: 'PT Serif', serif;
+	font-size: 30px;
+	position: absolute;
+	left: 50px;
+	top: 420px;
+	}
+
+
+nav {
+	display: flex;
+	justify-content: flex-end;
+	align-items: right;
+	padding: 10px 10px;
+	top: 2px;
+
+
+
+}
+
+p {
+	width: 30%;
+	position: absolute;
+	left: 50px;
+	top:500px ;
+	font-family:'Roboto', sans-serif;
+	font-size: 14px;
+	text-align: justify;
+	line-height: 150%;
+
+}
+
+nav li{
+	display: inline-block;
+	padding: 0px 20px
+
+}
+
+body { background-color: black;
+		color:white;
+
+}
