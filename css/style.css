@@ -28,7 +28,7 @@
 		font-size: 108px;
 		position:absolute;
 		left:1400px;
-		top:440px;
+		top:540px;
  		color: black;
   		-webkit-text-fill-color: black; 
   		-webkit-text-stroke-width: 1px;
@@ -39,7 +39,7 @@
 		font-size: 108px;
 		position: absolute;
 		left:1600px;
-		top: 530px;
+		top: 630px;
  		color: black;
  		-webkit-text-fill-color: black; 
   		-webkit-text-stroke-width: 1px;
@@ -85,8 +85,21 @@ h4 {	font-size: 14px;
 
 }
 
+h5 { font-size: 14px;
+	font-family: 'Roboto', san-serif;
+	position: absolute;
+	left:50px;
+	top:750px;
+
+
+
+
+
+}
+
+
 li, a, button {
-	font-family: "Roboto" san-serif;
+	font-family:'Roboto', sans-serif;
 	font-weight: bold;
 	font-size: 16px;
 	color: white; 
@@ -121,7 +134,7 @@ nav {
 }
 
 p {
-	width: 30%;
+	width: 28%;
 	position: absolute;
 	left: 50px;
 	top:500px ;
@@ -132,6 +145,8 @@ p {
 
 }
 
+
+
 nav li{
 	display: inline-block;
 	padding: 0px 20px
@@ -140,5 +155,16 @@ nav li{
 
 body { background-color: black;
 		color:white;
+
+}
+
+footer { position: fixed;
+		left: 50px;
+		bottom:10px;
+
+
+
+
+
 
 }
