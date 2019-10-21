@@ -1,12 +1,38 @@
 /* Enter your Styles below! */
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
-
+header {
+	padding-left: 50px;
+	padding-top: 40px;
+	
+}
 
 .orion-page {background-image: url(../images/orionimg.png);
 			background-repeat: no-repeat;
-			background-position: 600px 100px;
-			background-size: 30%
+			background-position: 600px 50px;
+			background-size: 35%
+}
+
+.ursa-major {background-image: url(../images/ursa_major.png);
+			background-repeat: no-repeat;
+			background-position: 460px 210px;
+			background-size: 38%
+
+}
+
+.ursa-minor {background-image: url(../images/ursa_minor.png);
+			background-repeat: no-repeat;
+			background-position: 730px 300px;
+			background-size: 35%;
+
+
+}
+
+.scorpius-page {background-image: url(../images/scorpius.png);
+				background-repeat: no-repeat;
+				background-position: 620px 200px;
+				background-size: 35%;
+
 }
 
 .solid-decoritive-text {
@@ -28,7 +54,7 @@
 		font-size: 108px;
 		position:absolute;
 		left:1400px;
-		top:540px;
+		top:440px;
  		color: black;
   		-webkit-text-fill-color: black; 
   		-webkit-text-stroke-width: 1px;
@@ -39,7 +65,7 @@
 		font-size: 108px;
 		position: absolute;
 		left:1600px;
-		top: 630px;
+		top: 530px;
  		color: black;
  		-webkit-text-fill-color: black; 
   		-webkit-text-stroke-width: 1px;
@@ -53,13 +79,13 @@
 		font-size: 108px;
 		position: absolute;
 		right: 30px;
-		top: 440px;
+		top: 540px;
 }
 .orion-sidetext .outlinetext {
 		font-size: 108px;
 		position: absolute;
 		right: -60px;
-		top: 530px;
+		top: 630px;
 		color: black;
  		-webkit-text-fill-color: black; 
   		-webkit-text-stroke-width: 1px;
@@ -67,12 +93,16 @@
 
 }
 
-header {
-	padding-left: 50px;
-	padding-top: 40px;
-	
+h1{ padding: 20px 20px
+	margrin-left:auto;
 }
 
+h2{font-family: 'PT Serif', serif;
+	font-size: 30px;
+	position: absolute;
+	left: 50px;
+	top: 380px;
+}
 
 
 h4 {	font-size: 14px;
@@ -81,22 +111,25 @@ h4 {	font-size: 14px;
 		left: 175px;
 		top: 400px;
 
-
-
 }
 
 h5 { font-size: 14px;
 	font-family: 'Roboto', san-serif;
 	position: absolute;
 	left:50px;
-	top:750px;
-
-
-
-
+	top:720px;
 
 }
 
+h6 {width: 29%;
+	position: absolute;
+	left: 50px;
+	top:620px ;
+	font-family:'Roboto', sans-serif;
+	font-size: 14px;
+	text-align: justify;
+	line-height: 150%;
+}
 
 li, a, button {
 	font-family:'Roboto', sans-serif;
@@ -104,22 +137,14 @@ li, a, button {
 	font-size: 16px;
 	color: white; 
 	text-decoration: none;
-
 }
 
-h1{ padding: 20px 20px
-	margrin-left:auto;
+.minorpar { position: absolute;
+			left: 50px;
+			top: 550px;
 
 
- }
-
-
- h2{font-family: 'PT Serif', serif;
-	font-size: 30px;
-	position: absolute;
-	left: 50px;
-	top: 420px;
-	}
+}
 
 
 nav {
@@ -128,28 +153,26 @@ nav {
 	align-items: right;
 	padding: 10px 10px;
 	top: 2px;
-
-
-
-}
-
-p {
-	width: 28%;
 	position: absolute;
-	left: 50px;
-	top:500px ;
-	font-family:'Roboto', sans-serif;
-	font-size: 14px;
-	text-align: justify;
-	line-height: 150%;
-
+	right: 20px;
+	top: 40px;
 }
-
-
 
 nav li{
 	display: inline-block;
 	padding: 0px 20px
+
+}
+
+p {
+	width: 29%;
+	position: absolute;
+	left: 50px;
+	top:450px ;
+	font-family:'Roboto', sans-serif;
+	font-size: 14px;
+	text-align: justify;
+	line-height: 150%;
 
 }
 
@@ -161,10 +184,5 @@ body { background-color: black;
 footer { position: fixed;
 		left: 50px;
 		bottom:10px;
-
-
-
-
-
 
 }
