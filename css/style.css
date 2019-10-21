@@ -9,13 +9,13 @@ header {
 
 .orion-page {background-image: url(../images/orionimg.png);
 			background-repeat: no-repeat;
-			background-position: 600px 50px;
+			background-position: 690px 50px;
 			background-size: 35%
 }
 
 .ursa-major {background-image: url(../images/pisces.png);
 			background-repeat: no-repeat;
-			background-position: 660px 210px;
+			background-position: 750px 210px;
 			background-size: 35%
 
 }
@@ -172,7 +172,7 @@ h5 { font-size: 14px;
 
 }
 
-h6 {width: 25%;
+h6 {width: 30%;
 	position: absolute;
 	left: 50px;
 	top:575px ;
@@ -216,7 +216,7 @@ nav li{
 }
 
 p {
-	width: 25%;
+	width: 30%;
 	position: absolute;
 	left: 50px;
 	top:450px ;
