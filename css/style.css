@@ -117,14 +117,14 @@ h5 { font-size: 14px;
 	font-family: 'Roboto', san-serif;
 	position: absolute;
 	left:50px;
-	top:720px;
+	top:770px;
 
 }
 
-h6 {width: 29%;
+h6 {width: 25%;
 	position: absolute;
 	left: 50px;
-	top:620px ;
+	top:650px ;
 	font-family:'Roboto', sans-serif;
 	font-size: 14px;
 	text-align: justify;
@@ -141,7 +141,7 @@ li, a, button {
 
 .minorpar { position: absolute;
 			left: 50px;
-			top: 550px;
+			top: 580px;
 
 
 }
@@ -165,7 +165,7 @@ nav li{
 }
 
 p {
-	width: 29%;
+	width: 25%;
 	position: absolute;
 	left: 50px;
 	top:450px ;
