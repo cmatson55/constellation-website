@@ -13,17 +13,17 @@ header {
 			background-size: 35%
 }
 
-.ursa-major {background-image: url(../images/ursa_major.png);
+.ursa-major {background-image: url(../images/pisces.png);
 			background-repeat: no-repeat;
-			background-position: 460px 210px;
-			background-size: 38%
+			background-position: 660px 210px;
+			background-size: 35%
 
 }
 
 .ursa-minor {background-image: url(../images/ursa_minor.png);
 			background-repeat: no-repeat;
 			background-position: 730px 300px;
-			background-size: 35%;
+			background-size: 40%;
 
 
 }
@@ -32,6 +32,14 @@ header {
 				background-repeat: no-repeat;
 				background-position: 620px 200px;
 				background-size: 35%;
+
+}
+
+.history-page {background-image: url(../images/history.png);
+				background-repeat: no-repeat;
+				background-position: 320px 290px;
+				background-size: 20%;
+
 
 }
 
@@ -93,6 +101,31 @@ header {
 
 }
 
+.origin-par {
+	width: 40%;
+	position: absolute;
+	left: 450px;
+	top: 445px;
+
+}
+
+.second-par {
+	width: 40%;
+	position: absolute;
+	left: 450px;
+	top: 640px;
+
+
+
+}
+
+
+
+
+
+
+}
+
 h1{ padding: 20px 20px
 	margrin-left:auto;
 }
@@ -118,13 +151,15 @@ h5 { font-size: 14px;
 	position: absolute;
 	left:50px;
 	top:770px;
+	width: 25%;
+	line-height: 150%;
 
 }
 
 h6 {width: 25%;
 	position: absolute;
 	left: 50px;
-	top:650px ;
+	top:575px ;
 	font-family:'Roboto', sans-serif;
 	font-size: 14px;
 	text-align: justify;
