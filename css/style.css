@@ -37,7 +37,7 @@ header {
 
 .history-page {background-image: url(../images/history.png);
 				background-repeat: no-repeat;
-				background-position: 320px 290px;
+				background-position: 220px 275px;
 				background-size: 20%;
 
 
@@ -104,7 +104,7 @@ header {
 .origin-par {
 	width: 40%;
 	position: absolute;
-	left: 450px;
+	left: 350px;
 	top: 445px;
 
 }
@@ -112,19 +112,35 @@ header {
 .second-par {
 	width: 40%;
 	position: absolute;
-	left: 450px;
+	left: 350px;
 	top: 640px;
 
 
 
 }
 
+.constellation-names {
+	
+	position: absolute;
+	left: 1270px;
+	top: 445px;
+	font-size: 0.5em;
+	line-height: 250%;
 
-
-
-
+	
 
 }
+
+.list2 {
+	position: absolute;
+	left: 1410px;
+	top: 445px;
+	font-size: 0.5em;
+	line-height: 250%
+	
+
+}
+
 
 h1{ padding: 20px 20px
 	margrin-left:auto;
