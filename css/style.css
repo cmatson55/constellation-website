@@ -102,14 +102,19 @@ header {
 }
 
 .origin-par {
+	font-family: "Roboto" san-serif;
+	font-size: 14px;
 	width: 40%;
 	position: absolute;
 	left: 350px;
 	top: 445px;
 
+
 }
 
 .second-par {
+	font-family: "Roboto" san-serif;
+	font-size: 14px;
 	width: 40%;
 	position: absolute;
 	left: 350px;
@@ -120,27 +125,41 @@ header {
 }
 
 .constellation-names {
-	
-	position: absolute;
-	left: 1270px;
+	font-family: "Roboto" san-serif;
+	font-size: .02px;
+	left: 1185px;
 	top: 445px;
-	font-size: 0.5em;
-	line-height: 250%;
+	position: absolute;
+	line-height: 30px;
+	font-weight: normal;
+	 
 
 	
 
 }
 
 .list2 {
-	position: absolute;
-	left: 1410px;
+	font-family: "Roboto" san-serif;
+	font-size: .02px;
+	left: 1370px;
 	top: 445px;
-	font-size: 0.5em;
-	line-height: 250%
+	position: absolute;
+	line-height: 30px;
+	font-weight: normal;
 	
 
 }
 
+.all-cons {
+	font-family: 'EB Garamond', serif;
+	font-size: 22px;
+	font-style: italic;
+	font-weight: bold;
+	left: 1185px;
+	top: 370px
+
+
+}
 
 h1{ padding: 20px 20px
 	margrin-left:auto;
@@ -171,6 +190,7 @@ h5 { font-size: 14px;
 	line-height: 150%;
 
 }
+
 
 h6 {width: 30%;
 	position: absolute;
