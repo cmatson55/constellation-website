@@ -7,15 +7,18 @@ header {
 	
 }
 
+
+}
+
 .orion-page {background-image: url(../images/orionimg.png);
-			background-repeat: no-repeat;
-			background-position: 690px 40px;
+		
+			background-position: 290px 40px;
 			background-size: 35%
 }
 
 .ursa-major {background-image: url(../images/pisces.png);
 			background-repeat: no-repeat;
-			background-position: 750px 210px;
+			background-position: 250px 210px;
 			background-size: 35%
 
 }
@@ -64,6 +67,16 @@ header {
 
 
 }
+
+.scorpius-page {background-image: url(../images/scorpius-constellation.png);
+				background-repeat: no-repeat;
+				background-position: 290px 275px;
+				background-size: 27%;
+
+
+}
+
+
 
 .solid-decoritive-text {
 		font-size: 108px;
@@ -267,8 +280,34 @@ header {
 	left: 350px;
 	top: 720px;
 
+}
 
+.scorpius-par {
+	font-family: "Roboto" san-serif;
+	font-size: 14px;
+	width: 40%;
+	position: absolute;
+	left: 350px;
+	top: 445px;
+}
 
+.scorpius-par-two {
+	font-family: "Roboto" san-serif;
+	font-size: 14px;
+	width: 40%;
+	position: absolute;
+	left: 350px;
+	top: 520px;
+
+}
+
+.scorpius-par-three {
+	font-family: "Roboto" san-serif;
+	font-size: 14px;
+	width: 40%;
+	position: absolute;
+	left: 350px;
+	top: 640px;
 }
 
 .constellation-names {
