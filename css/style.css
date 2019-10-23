@@ -163,7 +163,7 @@ header {
 	width: 40%;
 	position: absolute;
 	left: 350px;
-	top: 565px;
+	top: 580px;
 }
 
 .third-par-orion {
@@ -172,7 +172,7 @@ header {
 	width: 40%;
 	position: absolute;
 	left: 350px;
-	top: 665px;
+	top: 690px;
 }
 
 .fourth-par-orion {
@@ -181,7 +181,7 @@ header {
 	width: 40%;
 	position: absolute;
 	left: 350px;
-	top: 765px;
+	top: 800px;
 }
 
 
@@ -224,7 +224,7 @@ header {
 	width: 40%;
 	position: absolute;
 	left: 350px;
-	top: 520px;
+	top: 535px;
 }
 
 .third-par-pisces {
@@ -233,7 +233,7 @@ header {
 	width: 40%;
 	position: absolute;
 	left: 350px;
-	top: 616px;	
+	top: 645px;	
 }
 
 .pisces-par {
@@ -260,7 +260,7 @@ header {
 	width: 40%;
 	position: absolute;
 	left: 350px;
-	top: 520px;
+	top: 535px;
 }
 
 .ursa-par-three {
@@ -269,7 +269,7 @@ header {
 	width: 40%;
 	position: absolute;
 	left: 350px;
-	top: 640px;
+	top: 665px;
 
 }
 
@@ -278,7 +278,7 @@ header {
 	width: 40%;
 	position: absolute;
 	left: 350px;
-	top: 720px;
+	top: 755px;
 
 }
 
@@ -371,7 +371,7 @@ h5 { font-size: 14px;
 	font-family: 'Roboto', san-serif;
 	position: absolute;
 	left: 350px;
-	top: 870px;
+	top: 880px;
 	width: 25%;
 	line-height: 150%;
 
@@ -414,6 +414,26 @@ nav {
 	position: absolute;
 	right: 20px;
 	top: 40px;
+}
+
+.active-orion{
+	border-bottom: 1px solid white;
+}
+
+.active-pisces{
+	border-bottom: 1px solid white;
+}
+
+.active-ursa{
+	border-bottom: 1px solid white;
+}
+
+.active-scorpius{
+	border-bottom: 1px solid white;
+}
+
+.active-history{
+	border-bottom: 1px solid white;
 }
 
 nav li{
