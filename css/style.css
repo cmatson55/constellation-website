@@ -11,8 +11,8 @@ header {
 }
 
 .orion-page {background-image: url(../images/orionimg.png);
-		
-			background-position: 290px 40px;
+			background-repeat: no-repeat;
+			background-position: 90px 40px;
 			background-size: 35%
 }
 
@@ -83,6 +83,7 @@ header {
 		position: absolute;
 		left: 200px;
 		top: 440px; 
+		
 }
 
 .home-sidetext  .solidtext {
@@ -90,6 +91,7 @@ header {
 		position: absolute;
 		left: 400px;
 		top: 530px;
+		
 
 }
 
@@ -121,14 +123,14 @@ header {
 .orion-sidetext .solidtext {
 		font-size: 108px;
 		position: absolute;
-		right: 30px;
-		top: 540px;
+		left: 1185px;
+		top: 1240px;
 }
 .orion-sidetext .outlinetext {
 		font-size: 108px;
 		position: absolute;
-		right: -60px;
-		top: 630px;
+		left: 1250px;
+		top: 1330px;
 		color: black;
  		-webkit-text-fill-color: black; 
   		-webkit-text-stroke-width: 1px;
@@ -314,7 +316,7 @@ header {
 	font-family: "Roboto" san-serif;
 	font-size: .02px;
 	left: 1185px;
-	top: 445px;
+	top: 520px;
 	position: absolute;
 	line-height: 30px;
 	font-weight: normal;
@@ -328,7 +330,7 @@ header {
 	font-family: "Roboto" san-serif;
 	font-size: .02px;
 	left: 1370px;
-	top: 445px;
+	top: 520px;
 	position: absolute;
 	line-height: 30px;
 	font-weight: normal;
@@ -342,7 +344,7 @@ header {
 	font-style: italic;
 	font-weight: bold;
 	left: 1185px;
-	top: 370px
+	top: 445px
 
 
 }
@@ -377,7 +379,27 @@ h5 { font-size: 14px;
 
 }
 
+.pisces-visability {
+	font-size: 14px;
+	font-family: 'Roboto', san-serif;
+	position: absolute;
+	left: 350px;
+	top: 740px;
+	width: 25%;
+	line-height: 150%;
 
+}
+
+.ursa-visability{
+	font-size: 14px;
+	font-family: 'Roboto', san-serif;
+	position: absolute;
+	left: 350px;
+	top: 900px;
+	width: 25%;
+	line-height: 150%;
+
+}
 h6 {width: 30%;
 	position: absolute;
 	left: 50px;
@@ -417,29 +439,59 @@ nav {
 }
 
 .active-orion{
-	border-bottom: 1px solid white;
+	border-bottom: 2px solid white;
 }
 
 .active-pisces{
-	border-bottom: 1px solid white;
+	border-bottom: 2px solid white;
 }
 
 .active-ursa{
-	border-bottom: 1px solid white;
+	border-bottom: 2px solid white;
 }
 
 .active-scorpius{
-	border-bottom: 1px solid white;
+	border-bottom: 2px solid white;
 }
 
 .active-history{
-	border-bottom: 1px solid white;
+	border-bottom: 2px solid white;
 }
 
 nav li{
 	display: inline-block;
-	padding: 0px 20px
+	padding: 0px 16px
 
+}
+.logo{
+
+
+}
+a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  padding: 10px 10px;
+  position: relative;
+  font-size: 14px;
+}
+a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a:hover:after {
+  width: 100%;
+  left: 0;
 }
 
 p {
