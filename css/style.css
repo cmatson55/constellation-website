@@ -6,20 +6,20 @@ header {
 	padding-top: 40px;
 	
 }
-
-
-}
+body { background-color: black;
+		color:white;
+	}
 
 .orion-page {background-image: url(../images/orionimg.png);
 			background-repeat: no-repeat;
-			background-position: 90px 40px;
-			background-size: 35%
+			background-position: 100px 50%;
+			background-size: 60%;
 }
 
 .ursa-major {background-image: url(../images/pisces.png);
 			background-repeat: no-repeat;
-			background-position: 250px 210px;
-			background-size: 35%
+			background-position: 100px 50%;
+			background-size: 35%;
 
 }
 
@@ -33,7 +33,7 @@ header {
 
 .scorpius-page {background-image: url(../images/scorpius.png);
 				background-repeat: no-repeat;
-				background-position: 620px 200px;
+				background-position: 100px 100px;
 				background-size: 35%;
 
 }
@@ -45,6 +45,7 @@ header {
 
 
 }
+
 .orion-page {background-image: url(../images/orionconstellation.png);
 				background-repeat: no-repeat;
 				background-position: 275px 275px;
@@ -299,7 +300,7 @@ header {
 	width: 40%;
 	position: absolute;
 	left: 350px;
-	top: 520px;
+	top: 535px;
 
 }
 
@@ -309,7 +310,7 @@ header {
 	width: 40%;
 	position: absolute;
 	left: 350px;
-	top: 640px;
+	top: 670px;
 }
 
 .constellation-names {
@@ -506,10 +507,7 @@ p {
 
 }
 
-body { background-color: black;
-		color:white;
 
-}
 
 footer { position: fixed;
 		left: 50px;
