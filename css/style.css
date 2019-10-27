@@ -12,29 +12,29 @@ body { background-color: black;
 
 .orion-page {background-image: url(../images/orionimg.png);
 			background-repeat: no-repeat;
-			background-position: 100px 50%;
-			background-size: 60%;
+			background-position: 440px 960px;
+			background-size: 20%;
 }
 
-.ursa-major {background-image: url(../images/pisces.png);
+.pisces {background-image: url(../images/pisces.png);
 			background-repeat: no-repeat;
-			background-position: 100px 50%;
-			background-size: 35%;
+			background-position: 440px 960px;
+			background-size: 25%;
 
 }
 
 .ursa-minor {background-image: url(../images/ursa_minor.png);
 			background-repeat: no-repeat;
-			background-position: 730px 300px;
-			background-size: 40%;
+			background-position: 440px 1100px;
+			background-size: 25%;
 
 
 }
 
 .scorpius-page {background-image: url(../images/scorpius.png);
 				background-repeat: no-repeat;
-				background-position: 100px 100px;
-				background-size: 35%;
+				background-position: 460px 960px;
+				background-size: 25%;
 
 }
 
@@ -46,14 +46,15 @@ body { background-color: black;
 
 }
 
-.orion-page {background-image: url(../images/orionconstellation.png);
+.orion-page .wrapper {background-image: url(../images/orionconstellation.png);
 				background-repeat: no-repeat;
 				background-position: 275px 275px;
 				background-size: 27%;
 
 
 }
-.pisces {background-image: url(../images/piscesconstellation.png);
+
+.pisces .pisces-wrapper {background-image: url(../images/piscesconstellation.png);
 				background-repeat: no-repeat;
 				background-position: 270px 275px;
 				background-size: 27%;
@@ -61,7 +62,7 @@ body { background-color: black;
 
 }
 
-.ursa-minor {background-image: url(../images/ursa-minor-constellation.png);
+.ursa-minor .ursa-wrapper {background-image: url(../images/ursa-minor-constellation.png);
 				background-repeat: no-repeat;
 				background-position: 270px 275px;
 				background-size: 45%;
@@ -69,7 +70,7 @@ body { background-color: black;
 
 }
 
-.scorpius-page {background-image: url(../images/scorpius-constellation.png);
+.scorpius-page .scorpius-wrapper {background-image: url(../images/scorpius-constellation.png);
 				background-repeat: no-repeat;
 				background-position: 290px 275px;
 				background-size: 27%;
