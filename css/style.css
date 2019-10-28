@@ -26,8 +26,8 @@ body { background-color: black;
 
 .ursa-minor {background-image: url(../images/ursa-minor-constellation.png),url(../images/ursa_minor.png);
 			background-repeat: no-repeat, no-repeat;
-			background-position: 280px 275px,440px 1100px;
-			background-size: 40%,25%;
+			background-position: 280px 275px,400px 1100px;
+			background-size: 40%,35%;
 
 
 }
