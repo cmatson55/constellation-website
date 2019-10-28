@@ -12,13 +12,13 @@ body { background-color: black;
 
 
 .orion-page {background-image: url(../images/orionimg.png);
-		
+
 			background-repeat: no-repeat;
 			background-position: 440px 960px;
 			background-size: 20%;
 }
 .orion-head {background-image: url(../images/orionconstellation.png);
-				background-repeat: no-repeat;
+				background-repeat: no-repeat; 
 				background-position: 230px 180px;
 				background-size: 22%;
 
