@@ -11,44 +11,31 @@ body { background-color: black;
 	}
 
 
-.orion-page {background-image: url(../images/orionimg.png);
-
-			background-repeat: no-repeat;
-			background-position: 440px 960px;
-			background-size: 20%;
+.orion-page {background-image: url(../images/orionconstellation.png), url(../images/orionimg.png);
+			background-repeat: no-repeat, no-repeat;
+			background-position: 275px 275px, 440px 960px;
+			background-size: 25%, 20%;
 }
-.orion-head {background-image: url(../images/orionconstellation.png);
-				background-repeat: no-repeat; 
-				background-position: 230px 180px;
-				background-size: 22%;
 
-
+.pisces {background-image: url(../images/piscesconstellation.png), url(../images/pisces.png);
+			background-repeat: no-repeat, no-repeat;
+			background-position: 275px 275px ,440px 960px;
+			background-size: 25% , 25%;
 
 }
 
-
-
-
-
-.pisces {background-image: url(../images/pisces.png);
-			background-repeat: no-repeat;
-			background-position: 440px 960px;
-			background-size: 25%;
-
-}
-
-.ursa-minor {background-image: url(../images/ursa_minor.png);
-			background-repeat: no-repeat;
-			background-position: 440px 1100px;
-			background-size: 25%;
+.ursa-minor {background-image: url(../images/ursa-minor-constellation.png),url(../images/ursa_minor.png);
+			background-repeat: no-repeat, no-repeat;
+			background-position: 280px 275px,440px 1100px;
+			background-size: 40%,25%;
 
 
 }
 
-.scorpius-page {background-image: url(../images/scorpius.png);
-				background-repeat: no-repeat;
-				background-position: 460px 960px;
-				background-size: 25%;
+.scorpius-page {background-image: url(../images/scorpius-constellation.png),url(../images/scorpius.png);
+				background-repeat: no-repeat, no-repeat;
+				background-position: 295px 275px,460px 960px;
+				background-size: 23%,25%;
 
 }
 
